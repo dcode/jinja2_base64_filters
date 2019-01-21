@@ -5,10 +5,6 @@ jinja2_base64_filters
     :target: https://pypi.python.org/pypi/jinja2_base64_filters
     :alt: Latest PyPI version
 
-.. image:: NOPE.png
-   :target: NOPE
-   :alt: Latest Travis CI build status
-
 Tiny jinja2 extension to add b64encode and b64decode filters.
 
 
