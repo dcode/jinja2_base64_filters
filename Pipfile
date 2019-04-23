@@ -7,6 +7,7 @@ verify_ssl = true
 tox = "*"
 pytest = "*"
 twine = "*"
+urllib3 = ">=1.24.2"
 
 [packages]
 jinja2 = "*"
