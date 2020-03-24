@@ -11,6 +11,7 @@ Tiny jinja2 extension to add b64encode and b64decode filters.
 Usage
 -----
 .. code-block:: python
+
         from jinja2_base64_filters import jinja2_base64_filters
         from jinja2 import Environment
 
@@ -25,11 +26,11 @@ Usage
 
 Installation
 ------------
-**jinja2_base64_filters** is available for download from `PyPI`_ via `pip`_::
+**jinja2_base64_filters** is available for download from PyPI via pip::
 
     $ pip install jinja2-base64-filters
 
-It will automatically install `jinja2`_
+It will automatically install jinja2
 
 Requirements
 ^^^^^^^^^^^^
@@ -44,7 +45,7 @@ Licence
 Authors
 -------
 
-`jinja2_base64_filters` was written by `Timothée GERMAIN <timothee@lumapps.com>`_.
+jinja2_base64_filters was written by `Timothée GERMAIN <timothee@lumapps.com>`_.
 
 This package was created with Cookiecutter_ and the `kragniz/cookiecutter-pypackage-minimal`_ project template.
 
