@@ -16,7 +16,7 @@ def read(filename):
 setup(
     keywords="jinja2_base64_filters",
     name="jinja2_base64_filters",
-    version="0.1.3",
+    version="0.1.4",
     url="https://github.com/lumapps/jinja2_base64_filters",
     license="MIT",
     author="Timothée GERMAIN",
