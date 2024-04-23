@@ -13,7 +13,7 @@ class Base64Filters(Extension):
         environment.filters["b64decode"] = base64decode
 
 
-def base64encode(string):
+def base64encode(string, encoding="utf-8"):
     """
     args:
         string (str)
@@ -22,14 +22,14 @@ def base64encode(string):
     """
     # b64encode take a byte-like object as input so we need to encode our string(str)
     # b64encode returns a byte-like object so we convert it to a str
-    return base64.b64encode(string.encode()).decode()
+    return base64.b64encode(string.encode(encoding)).decode()
 
 
-def base64decode(string):
+def base64decode(string, encoding="utf-8"):
     """
     args:
         string (str)
     returns:
         string (str)
     """
-    return base64.b64decode(string.encode()).decode()
+    return base64.b64decode(string.encode()).decode(encoding)
